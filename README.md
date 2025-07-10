@@ -1,6 +1,6 @@
 # DummyJSON API Testing Framework
 
-A comprehensive API testing framework built with Cypress and TypeScript for testing the DummyJSON API.
+The API testing framework built with Cypress and TypeScript for testing the DummyJSON API.
 
 ## Project Structure
 
