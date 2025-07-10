@@ -1,0 +1,37 @@
+{
+  "name": "dummyjson-api-testing",
+  "version": "1.0.0",
+  "description": "Comprehensive API testing framework for DummyJSON API using Cypress and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test:products": "cypress run --spec 'cypress/e2e/api/products/*.cy.ts'",
+    "test:open": "cypress open",
+    "test:run": "cypress run",
+    "test:headless": "cypress run --headless",
+    "lint": "eslint cypress/**/*.ts",
+    "clean": "rm -rf cypress/screenshots cypress/videos reports"
+  },
+  "keywords": [
+    "cypress",
+    "typescript", 
+    "api-testing",
+    "dummyjson",
+    "automation",
+    "testing-framework"
+  ],
+  "author": "Lilia Urmazova <lilia.urmazova@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/dummyjson-api-testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/dummyjson-api-testing/issues"
+  },
+  "homepage": "https://github.com/your-username/dummyjson-api-testing#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "cypress": "^13.6.2",
+    "typescript": "^5.3.3"
+  }
+}
